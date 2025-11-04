@@ -1,6 +1,6 @@
 # 🌐 Portal Website Resmi BEM KM UDINUS
 
-![BEM KM UDINUS](public/img/logo-bemkm-udinus.png)
+![BEM KM UDINUS](public/img/logo/logo-bemkm-udinus.png)
 
 Website **Portal BEM KM UDINUS** adalah platform resmi yang berfungsi sebagai pusat informasi, publikasi, dan komunikasi Badan Eksekutif Mahasiswa Keluarga Mahasiswa Universitas Dian Nuswantoro (BEM KM UDINUS).  
 Website ini dirancang untuk meningkatkan transparansi, memperkuat citra kelembagaan, serta memudahkan mahasiswa dan publik dalam mengakses seluruh kegiatan dan informasi BEM KM.
