@@ -12,10 +12,10 @@ use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest')->group(function () {
-    Route::get('register', [RegisteredUserController::class, 'create'])
-        ->name('register');
-
-    Route::post('register', [RegisteredUserController::class, 'store']);
+    // Nonaktifkan pendaftaran: hanya user yang sudah ada (di-seed) yang bisa login
+    // Route::get('register', [RegisteredUserController::class, 'create'])
+    //     ->name('register');
+    // Route::post('register', [RegisteredUserController::class, 'store']);
 
     Route::get('login', [AuthenticatedSessionController::class, 'create'])
         ->name('login');
@@ -33,6 +33,11 @@ Route::middleware('guest')->group(function () {
 
     Route::post('reset-password', [NewPasswordController::class, 'store'])
         ->name('password.store');
+
+    Route::get('auth/redirect', [AuthenticatedSessionController::class, 'googleRedirect'])
+        ->name('auth.redirect');
+    Route::get('auth/callback', [AuthenticatedSessionController::class, 'googleCallback'])
+        ->name('auth.callback');
 });
 
 Route::middleware('auth')->group(function () {
