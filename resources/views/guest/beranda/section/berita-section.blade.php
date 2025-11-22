@@ -86,10 +86,14 @@
         </div>
 
         <!-- Tombol Lihat Semua -->
-        <div class="text-center mt-12">
+        <div class="flex items-center mt-6 w-full">
             <a href="#"
-                class="inline-block bg-orange-600 text-white font-semibold px-6 py-3 rounded-full shadow-md hover:bg-orange-700 transition">
-                Lihat Semua Berita
+                class="ml-auto inline-flex items-center text-orange-600 font-semibold px-2 py-2 rounded-full hover:text-orange-700 hover:underline transition-colors focus:outline-none">
+                <span>Lihat Semua Berita</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
             </a>
         </div>
 

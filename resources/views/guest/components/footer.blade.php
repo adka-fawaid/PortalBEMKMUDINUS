@@ -66,7 +66,8 @@
             <!-- Sosial Media -->
             <div class="flex items-center gap-4 mt-4">
                 <!-- Instagram -->
-                <a href="#" class="hover:text-blue-600" aria-label="Instagram">
+                <a href="https://www.instagram.com/bemkmudinus/" class="hover:text-blue-600" aria-label="Instagram"
+                    target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"
                         stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram">
@@ -75,8 +76,19 @@
                         <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                     </svg>
                 </a>
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/@bemkmudinus" class="hover:text-blue-600" aria-label="TikTok"
+                    target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 text-gray-800/80"
+                        viewBox="0 0 448 512">
+                        <path
+                            d="M448.5 209.9c-44 .1-87-13.6-122.8-39.2l0 178.7c0 33.1-10.1 65.4-29 92.6s-45.6 48-76.6 59.6-64.8 13.5-96.9 5.3-60.9-25.9-82.7-50.8-35.3-56-39-88.9 2.9-66.1 18.6-95.2 40-52.7 69.6-67.7 62.9-20.5 95.7-16l0 89.9c-15-4.7-31.1-4.6-46 .4s-27.9 14.6-37 27.3-14 28.1-13.9 43.9 5.2 31 14.5 43.7 22.4 22.1 37.4 26.9 31.1 4.8 46-.1 28-14.4 37.2-27.1 14.2-28.1 14.2-43.8l0-349.4 88 0c-.1 7.4 .6 14.9 1.9 22.2 3.1 16.3 9.4 31.9 18.7 45.7s21.3 25.6 35.2 34.6c19.9 13.1 43.2 20.1 67 20.1l0 87.4z" />
+                    </svg>
+
+                </a>
                 <!-- YouTube -->
-                <a href="#" class="hover:text-blue-600" aria-label="YouTube">
+                <a href="https://www.youtube.com/@bemkmudinusofficial8044" class="hover:text-blue-600"
+                    aria-label="YouTube" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"
                         stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube">
@@ -86,21 +98,14 @@
                     </svg>
                 </a>
                 <!-- LinkedIn -->
-                <a href="#" class="hover:text-blue-600" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/company/bemkmudinus/" class="hover:text-blue-600"
+                    aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"
                         stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin">
                         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                         <rect width="4" height="12" x="2" y="9" />
                         <circle cx="4" cy="4" r="2" />
-                    </svg>
-                </a>
-                <a href="#" class="hover:text-blue-600" aria-label="TikTok">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"
-                        aria-hidden="true">
-                        <!-- Simplified TikTok glyph -->
-                        <path
-                            d="M14 2h-2v6.6c0 2.43-1.97 4.4-4.4 4.4-1.02 0-1.96-.35-2.7-.93A4.9 4.9 0 0 0 9.6 20c2.7 0 4.9-2.2 4.9-4.9V9.3c1.35 1.02 3.06 1.62 4.95 1.62V7.5c-1.6 0-3.1-.54-4.3-1.44A6.9 6.9 0 0 1 14 2z" />
                     </svg>
                 </a>
             </div>
